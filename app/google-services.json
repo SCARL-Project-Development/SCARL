@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "990258958965",
+    "firebase_url": "https://scarl2021.firebaseio.com",
+    "project_id": "scarl2021",
+    "storage_bucket": "scarl2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990258958965:android:05fa3f9484449b75211e3c",
+        "android_client_info": {
+          "package_name": "com.example.scarl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990258958965-ksn4r8fof8jebh7afp9tsa7f46rflu1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWU_x94zimpKwA2lV4EWyRZWKi3xjggYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990258958965-ksn4r8fof8jebh7afp9tsa7f46rflu1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

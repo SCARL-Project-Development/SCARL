@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/submission_background"
+    tools:context=".activity_submission">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/logindev"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="Device Number"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/loginpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/remember"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:text="Remember Me" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_letsgo_button"
+            android:text="Lets Go!"
+            android:textColor="#fa0000" />
+
+        <TextView
+            android:id="@+id/forgotpass"
+            android:layout_width="271dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Forgot Password?" />
+    </LinearLayout>
+
+</LinearLayout>

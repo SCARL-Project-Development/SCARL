@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/submission_background"
+    tools:context=".passkey_change">
+
+    <EditText
+        android:id="@+id/new_key"
+        android:layout_width="match_parent"
+        android:layout_marginTop="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="New Passkey"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/re_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Retype Passkey"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/pass_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/custom_letsgo_button"
+        android:textSize="20dp"
+        android:textColor="#fa0000"
+        android:text="SUBMIT" />
+</LinearLayout>

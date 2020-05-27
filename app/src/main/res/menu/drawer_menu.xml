@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+                android:id="@+id/carlocation"
+                android:title="Car Location" />
+    <item
+                android:id="@+id/carcondition"
+                android:title="Car Condition" />
+    <item
+                android:id="@+id/passkeychange"
+                android:title="Passkey change" />
+    <item
+                android:id="@+id/cnps"
+                android:title="Contact nearest police station" />
+    <item
+                android:id="@+id/cnh"
+                android:title="Contact nearest hospital" />
+    <item
+                android:id="@+id/cnpp"
+                android:title="Contact nearest petrol pump" />
+    <item
+                android:id="@+id/cnsc"
+                android:title="Contact nearest service centre" />
+    <item
+                android:id="@+id/travelhistory"
+                android:title="Travel history" />
+    <item
+                android:id="@+id/logout"
+                android:title="Logout" />
+</menu>
